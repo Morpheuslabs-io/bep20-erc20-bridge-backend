@@ -1,0 +1,7 @@
+apps:
+  - script: ./src/scanner.js
+    name: 'scanner'
+    log_file: './logs/scanner.log'
+  - script: ./src/payer.js
+    name: 'payer'
+    log_file: './logs/payer.log'
